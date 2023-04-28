@@ -1,7 +1,35 @@
+html,
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.wrapper {
+    /* height: 100%; */
+    width: 100%;
+    /* border: 1px solid black;  */
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center; /* horizontally center child elements */
+    align-items: center; /* vertically center child elements */
+}
+
+.container {
+    padding: 1em;
+}
+
+.form-layout {
+    display: grid;
+    gap: 5%;
+    padding-bottom: 1em;
+}
+
 h1 {
     color: #209CEE;
 }
 
-p {
-    font-size: 1.2em;
+.response {
+    font-size: 1.5em;
+    word-spacing: 1rem;
+    color: #209CEE;
 }

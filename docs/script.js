@@ -37,7 +37,7 @@ function computeCheckDigit(digits) {
 function randomAhvNumber() {
     const randomDigits = [7, 5, 6]; //country code
     for (var i = 0; i < 9; i++) {
-        var randomNum = Math.floor(Math.random() * 9) + 1;
+        var randomNum = Math.floor(Math.random() * 10) + 1;
         randomDigits.push(randomNum);
     }
     console.log(randomDigits);

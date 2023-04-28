@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div>
+    <div class="wrapper">
+      <div class="container">
         <h1>AHV Number Encoder</h1>
-        <div>
-        <label for="ahv-number">AHV Number</label>
-        <input type="text" id="ahv-number" name="name" value="">
-        <button type="button" id="randomize-button">Random AHV Number</button>
-        <button type="button" id="submit-button">Encode</button>
+        <div class="form-layout">
+          <label for="ahv-number">Enter AHV number</label>
+          <input type="text" id="ahv-number" name="name" value="756.">
+          <button type="button" id="randomize-button">Random AHV number</button>
+          <button type="button" id="submit-button">Encode</button>
         </div>
         <p class="response" id="response-text"></p>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
